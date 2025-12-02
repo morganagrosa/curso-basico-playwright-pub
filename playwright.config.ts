@@ -29,6 +29,9 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    video: 'on',
+    testIdAttribute:'data-test' //config de acordo com a utilizacao do atributo data-test no saucedemo
+    
   },
 
   /* Configure projects for major browsers */
